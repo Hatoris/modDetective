@@ -10,6 +10,8 @@ To see the tool in its most useful form, try running the command as follows: `py
 # What is modDetective Doing?
 modDetective is very elementary in how it operates. It simply walks the filesystem, with bounds determined by user specified options (-i is for ignore, meaning the tool will walk every directory EXCEPT for the ones specified in the -i option, and -e is for exclusive, meaning the tool will ONLY walk the directories specified). While walking, it picks up the modification times of each file, then orders these modification times in order to output them chronologically. 
 
+Additionally, in the output you will potentially see some files highlighted red. These files are denoted as "Indicators of User Activity," Since recent modifications to these files indicate that a user is currently active. As of now, these files include *.swp* files, *.bash_history*, *.python_history* and .*viminfo*. This list will be extended as I brainstorm more files that indicate present user activity. 
+
 # Requirements
 modDetective currently works only with python3; python2 compatability will be completed shortly (hence the lack of f strings). Standard libraries should be fine.
 
