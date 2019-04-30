@@ -15,7 +15,7 @@ FS_ROOT = "/"
 
 # The modicification of these files usually are due to recent activity by a user - this list
 # will expand over time.
-INDICATORS_OF_USER_ACTIVITY = [ ".swp", ".bash_history", ".python_history", ".viminfo" ]
+INDICATORS_OF_USER_ACTIVITY = [ ".swp", ".bash_history", ".python_history", ".viminfo", ".mysql_history" ]
 
 C_WHITE = '\033[1;37m'
 C_BLUE = '\033[1;34m'
