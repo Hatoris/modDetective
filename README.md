@@ -3,7 +3,7 @@ DISCLAIMER: This tool is still in VERY early stages of development. Please conta
 
 modDetective is a small Python tool that chronologizes files based on modification time in order to investigate recent system activity. This can be used in red team engagements and CTF's in order to pinpoint where escalation and attack vectors may exist. This is especially true in CTF's, in which files associated with the challenges often have a much newer modification date than standard files that exist from install. 
 
-[![asciicast](https://asciinema.org/a/ejMxe7mpJRlq3wS2GSaCFVF9Z.svg)](https://asciinema.org/a/ejMxe7mpJRlq3wS2GSaCFVF9Z)
+[![asciicast](https://asciinema.org/a/244741.svg)](https://asciinema.org/a/244741)
 
 To see the tool in its most useful form, try running the command as follows: `python3 modDetective.py -i /usr/share,/usr/lib,/lib`. This will ignore the */usr/lib*, */usr/share*, and */lib* directories, which tend not to have anything of interest. Also note that by default the "dynamic" directories are ignored (*/proc*, */sys*, */run*, */snap*, */dev*).
 
